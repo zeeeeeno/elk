@@ -1,0 +1,15 @@
+spring.elasticsearch.rest.uris: http://localhost:9200
+spring.data.elasticsearch.repositories.enabled: true
+
+server:
+  port: 8080
+  
+spring: 
+  thymeleaf:
+    enabled: true
+    prefix: classpath:templates/
+    check-template-location: true
+    suffix: .html
+    mode: HTML
+    cache: false
+    
